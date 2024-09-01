@@ -1,0 +1,10 @@
+{
+    "name": "hevy-vercel",  
+    "scope": "dannyrips-projects",  
+    "builds": [
+      { "src": "index.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/", "dest": "/index.html" }
+    ]
+  }
